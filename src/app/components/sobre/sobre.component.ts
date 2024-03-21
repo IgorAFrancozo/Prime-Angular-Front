@@ -1,5 +1,4 @@
-import { Component } from '@angular/core';
-import {AnimateOnScrollModule} from "primeng/animateonscroll";
+import {Component} from '@angular/core';
 
 @Component({
   selector: 'app-sobre',
