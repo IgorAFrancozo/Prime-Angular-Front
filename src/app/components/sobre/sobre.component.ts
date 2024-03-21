@@ -5,7 +5,6 @@ import {AnimateOnScrollModule} from "primeng/animateonscroll";
   selector: 'app-sobre',
   standalone: true,
   imports: [
-    AnimateOnScrollModule
   ],
   templateUrl: './sobre.component.html',
   styleUrl: './sobre.component.scss'

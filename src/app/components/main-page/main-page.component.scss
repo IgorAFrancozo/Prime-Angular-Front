@@ -1,0 +1,12 @@
+.floating-image img{
+  animation-name: flip;
+}
+
+@keyframes flip {
+  from {
+    transform: scaleX(1);
+  }
+  to {
+    transform: scaleX(-1);
+  }
+}
