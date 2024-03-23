@@ -1,0 +1,17 @@
+import { Component } from '@angular/core';
+import {ButtonModule} from "primeng/button";
+import {DialogModule} from "primeng/dialog";
+
+@Component({
+  selector: 'app-login',
+  standalone: true,
+    imports: [
+        ButtonModule,
+        DialogModule
+    ],
+  templateUrl: './login.component.html',
+  styleUrl: './login.component.scss'
+})
+export class LoginComponent {
+
+}
